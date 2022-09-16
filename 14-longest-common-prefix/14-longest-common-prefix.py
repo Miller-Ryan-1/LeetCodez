@@ -7,7 +7,7 @@ class Solution(object):
         output = ''
         # seperate each word into lists of letters
         letter_strings = []
-        for i, word in enumerate(strs):
+        for word in strs:
           letters = [x for x in word]
           letter_strings.append(letters)
 
